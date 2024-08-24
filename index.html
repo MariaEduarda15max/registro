@@ -27,28 +27,26 @@
             <div class="col-sm-6">
               <label for="apellido" class="form-label">Apellido</label>
               <input type="text" class="form-control" id="apellido" required>
-
             </div>
 
             <div class="col-12">
               <label for="email" class="form-label">Email</label>
               <input type="email" class="form-control" id="email" required>
-
             </div>
 
             <div class="col-sm-6">
               <label for="password1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="password1" required>
-              
+              <input type="password" class="form-control" id="password1" minlength="6" placeholder="Mínimo 6 caracteres" required>
             </div>
 
             <div class="col-sm-6">
               <label for="password2" class="form-label">Repetir contraseña</label>
-              <input type="password" class="form-control" id="password2" required>
+              <input type="password" class="form-control" id="password2" placeholder="Mínimo 6 caracteres" required>
             </div>
 
             <div class="form-check">
-              <label class="form-check-label" for="terminos">Acepto los términos y condiciones del servicio.</label>
+              <input type="checkbox" class="form-check-input" id="terminos">
+              <label class="form-check-label" for="terminos" required>Acepto los términos y condiciones del servicio.</label>
             </div>
 
             <button class="btn btn-primary" type="button" id="regBtn">Registrarme</button>

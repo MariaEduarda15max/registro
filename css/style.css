@@ -1,5 +1,7 @@
   .container {
     max-width: 960px;
+    background-color: color-mix(in srgb-linear, rgb(236, 101, 60) 6%, coral 70%);
+    color: black;
   }
 
   .alert {
